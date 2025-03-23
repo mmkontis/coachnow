@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CoachNow - AI-Powered Fitness Influencer Platform
 
-## Getting Started
+CoachNow is an innovative platform that connects fitness enthusiasts, athletes, and gym-goers with AI-enhanced coaching and influencer content. The platform leverages artificial intelligence to provide personalized fitness guidance, content creation, and community engagement.
 
-First, run the development server:
+## 🚀 Features
 
+- AI-powered fitness content recommendations
+- Personalized workout plans
+- Influencer-style content creation tools
+- Community engagement features
+- Real-time progress tracking
+- Smart workout analytics
+
+## 🛠️ Tech Stack
+
+- Next.js for frontend and API routes
+- TypeScript for type safety
+- Tailwind CSS for styling
+- pnpm for package management
+- AI/ML integration for personalized recommendations
+- Database (TBD)
+- Authentication (TBD)
+
+## 📦 Prerequisites
+
+- Node.js (v18 or higher)
+- pnpm (v8 or higher)
+
+## 🔧 Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/yourusername/coachnow.git
+cd coachnow
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+pnpm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Set up environment variables:
+```bash
+cp .env.example .env.local
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Start the development server:
+```bash
+pnpm dev
+```
 
-## Learn More
+## 🏃‍♂️ Running the App
 
-To learn more about Next.js, take a look at the following resources:
+The app will be available at `http://localhost:3000`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📝 License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+[MIT](LICENSE)
 
-## Deploy on Vercel
+## 🤝 Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Contributions, issues, and feature requests are welcome!

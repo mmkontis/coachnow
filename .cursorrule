@@ -1,0 +1,45 @@
+{
+  "formatter": {
+    "indentSize": 2,
+    "lineWidth": 100,
+    "useTabs": false,
+    "semicolons": true,
+    "quotes": "single",
+    "trailingComma": "es5"
+  },
+  "javascript": {
+    "formatter": {
+      "arrowParens": "always",
+      "bracketSpacing": true,
+      "jsxBracketSameLine": false,
+      "jsxSingleQuote": false,
+      "printWidth": 100,
+      "semi": true,
+      "singleQuote": true,
+      "tabWidth": 2,
+      "trailingComma": "es5"
+    },
+    "linter": {
+      "rules": {
+        "no-unused-vars": "warn",
+        "no-console": "warn",
+        "prefer-const": "error",
+        "no-undef": "error"
+      }
+    }
+  },
+  "typescript": {
+    "extends": "javascript",
+    "formatter": {
+      "importOrder": ["^@/(.*)$", "^[./]"],
+      "importOrderSeparation": true
+    },
+    "linter": {
+      "rules": {
+        "@typescript-eslint/explicit-function-return-type": "warn",
+        "@typescript-eslint/no-explicit-any": "warn",
+        "@typescript-eslint/no-unused-vars": "warn"
+      }
+    }
+  }
+} 
