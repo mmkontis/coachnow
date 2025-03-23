@@ -57,7 +57,7 @@ export const featuredAthletes = [
     name: "Alex Crusher",
     category: "Lifting",
     categoryId: "cat-1",
-    image: "/placeholder-image.jpg",
+    image: "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?w=800&q=80",
     description: "6x powerlifting champion with AI-optimized strength programming for maximum hypertrophy and power output.",
     stats: [
       { value: "780kg", label: "Total" },
@@ -78,7 +78,7 @@ export const featuredAthletes = [
     name: "Maria Blaze",
     category: "Running",
     categoryId: "cat-2",
-    image: "/placeholder-image.jpg",
+    image: "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=800&q=80",
     description: "Ultra-marathon elite with personalized pace strategies and recovery protocols powered by our AI.",
     stats: [
       { value: "2:22", label: "Marathon" },
@@ -97,7 +97,7 @@ export const featuredAthletes = [
     name: "Mike 'The Savage' Johnson",
     category: "Boxing",
     categoryId: "cat-3",
-    image: "/placeholder-image.jpg",
+    image: "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?w=800&q=80",
     description: "Undefeated MMA fighter whose reflexes and conditioning have been enhanced through AI fight analysis.",
     stats: [
       { value: "15-0", label: "Record" },
@@ -116,7 +116,7 @@ export const featuredAthletes = [
     name: "Kai Zen",
     category: "CrossFit",
     categoryId: "cat-7",
-    image: "/placeholder-image.jpg",
+    image: "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800&q=80",
     description: "CrossFit Games athlete with specialized metcon programming and elite recovery strategies.",
     stats: [
       { value: "Top 10", label: "Games" },
@@ -135,7 +135,7 @@ export const featuredAthletes = [
     name: "Serena Swift",
     category: "Cycling",
     categoryId: "cat-5",
-    image: "/placeholder-image.jpg",
+    image: "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=800&q=80",
     description: "Pro cyclist with AI-optimized training for maximum power output and endurance on climbs.",
     stats: [
       { value: "450w", label: "FTP" },
@@ -154,7 +154,7 @@ export const featuredAthletes = [
     name: "Flex Stone",
     category: "Grinding",
     categoryId: "cat-4",
-    image: "/placeholder-image.jpg",
+    image: "https://images.unsplash.com/photo-1550345332-09e3ac987658?w=800&q=80",
     description: "Transformation specialist who's helped thousands shred fat and build muscle through AI-optimized HIIT.",
     stats: [
       { value: "8%", label: "Body Fat" },
@@ -173,7 +173,7 @@ export const featuredAthletes = [
     name: "Jake Power",
     category: "Lifting",
     categoryId: "cat-1",
-    image: "/placeholder-image.jpg",
+    image: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=800&q=80",
     description: "Specializing in strength and conditioning with a focus on functional movements and athletic performance.",
     stats: [
       { value: "250kg", label: "Squat" },
@@ -194,7 +194,7 @@ export const featuredAthletes = [
     name: "Sarah Strong",
     category: "Lifting",
     categoryId: "cat-1",
-    image: "/placeholder-image.jpg",
+    image: "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800&q=80",
     description: "Olympic weightlifting specialist with AI-enhanced technique analysis and progressive programming.",
     stats: [
       { value: "110kg", label: "Clean & Jerk" },
@@ -215,7 +215,7 @@ export const featuredAthletes = [
     name: "Chris Sprint",
     category: "Running",
     categoryId: "cat-2",
-    image: "/placeholder-image.jpg",
+    image: "https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=800&q=80",
     description: "Track specialist focused on sprints with AI-optimized acceleration and explosive power training.",
     stats: [
       { value: "10.2s", label: "100m" },
@@ -234,7 +234,7 @@ export const featuredAthletes = [
     name: "Emma Trails",
     category: "Running",
     categoryId: "cat-2",
-    image: "/placeholder-image.jpg",
+    image: "https://images.unsplash.com/photo-1502230831726-fe5549140034?w=800&q=80",
     description: "Trail running expert with specialized training for varied terrain and elevation adaptations.",
     stats: [
       { value: "4:35", label: "50K Trail" },
@@ -253,7 +253,7 @@ export const featuredAthletes = [
     name: "Mike Strike",
     category: "Boxing",
     categoryId: "cat-3",
-    image: "/placeholder-image.jpg",
+    image: "https://images.unsplash.com/photo-1517438476312-10d79c077509?w=800&q=80",
     description: "Professional boxer with AI-enhanced training protocols focusing on speed, power, and defensive techniques.",
     stats: [
       { value: "21-2", label: "Record" },
@@ -274,7 +274,7 @@ export const featuredAthletes = [
     name: "Lisa Swift",
     category: "Boxing",
     categoryId: "cat-3",
-    image: "/placeholder-image.jpg",
+    image: "https://images.unsplash.com/photo-1615117972428-28de67cda58e?w=800&q=80",
     description: "Technical boxing specialist with a focus on footwork, speed, and tactical approach to fighting.",
     stats: [
       { value: "15-0", label: "Record" },
@@ -295,7 +295,7 @@ export const featuredAthletes = [
     name: "Ray Counter",
     category: "Boxing",
     categoryId: "cat-3",
-    image: "/placeholder-image.jpg",
+    image: "https://images.unsplash.com/photo-1495555687398-3f50d6e79e1e?w=800&q=80",
     description: "Counter-puncher with intelligent defensive systems and strategic fighting approach.",
     stats: [
       { value: "18-1", label: "Record" },
@@ -314,7 +314,7 @@ export const featuredAthletes = [
     name: "Trent Beast",
     category: "Grinding",
     categoryId: "cat-4",
-    image: "/placeholder-image.jpg",
+    image: "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=800&q=80",
     description: "Entrepreneur and fitness influencer balancing high-intensity training with building a global business empire.",
     stats: [
       { value: "$8M+", label: "Business Revenue" },
@@ -335,7 +335,7 @@ export const featuredAthletes = [
     name: "Aisha Burn",
     category: "Grinding",
     categoryId: "cat-4",
-    image: "/placeholder-image.jpg",
+    image: "https://images.unsplash.com/photo-1548690312-e3b507d8c110?w=800&q=80",
     description: "CEO by day, fitness enthusiast by dawn. Pioneering the integration of peak performance in business and health.",
     stats: [
       { value: "3 Exits", label: "Startup Success" },
@@ -356,7 +356,7 @@ export const featuredAthletes = [
     name: "Derek Intense",
     category: "Grinding",
     categoryId: "cat-4",
-    image: "/placeholder-image.jpg",
+    image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&q=80",
     description: "Former military leader turned business consultant who teaches elite performers how to optimize every minute.",
     stats: [
       { value: "4:30AM", label: "Wake-up Time" },
@@ -377,7 +377,7 @@ export const featuredAthletes = [
     name: "Lance Pedal",
     category: "Cycling",
     categoryId: "cat-5",
-    image: "/placeholder-image.jpg",
+    image: "https://images.unsplash.com/photo-1541625602330-2277a4c46182?w=800&q=80",
     description: "Road cycling specialist with AI-powered training plans focusing on endurance and climbing ability.",
     stats: [
       { value: "5.4W/kg", label: "FTP" },
@@ -396,7 +396,7 @@ export const featuredAthletes = [
     name: "Nina Wheels",
     category: "Cycling",
     categoryId: "cat-5",
-    image: "/placeholder-image.jpg",
+    image: "https://images.unsplash.com/photo-1559181567-c3190ca9959b?w=800&q=80",
     description: "Track cycling champion specializing in sprint events with explosive power development.",
     stats: [
       { value: "65kph", label: "Max Speed" },
@@ -415,7 +415,7 @@ export const featuredAthletes = [
     name: "Marco Trail",
     category: "Cycling",
     categoryId: "cat-5",
-    image: "/placeholder-image.jpg",
+    image: "https://images.unsplash.com/photo-1544191696-102dbdaeeaa0?w=800&q=80",
     description: "Mountain biking expert with technique-focused training and terrain-specific conditioning.",
     stats: [
       { value: "1.2m", label: "Max Drop" },
@@ -434,7 +434,7 @@ export const featuredAthletes = [
     name: "Serena Ace",
     category: "Tennis",
     categoryId: "cat-6",
-    image: "/placeholder-image.jpg",
+    image: "https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?w=800&q=80",
     description: "Professional tennis player with power-based gameplay and AI-enhanced stroke analysis.",
     stats: [
       { value: "195kph", label: "Serve" },
@@ -453,7 +453,7 @@ export const featuredAthletes = [
     name: "Roger Slice",
     category: "Tennis",
     categoryId: "cat-6",
-    image: "/placeholder-image.jpg",
+    image: "https://images.unsplash.com/photo-1542144582-1ba00456b5e3?w=800&q=80",
     description: "Technical tennis specialist with elegant play style and tactical court movement.",
     stats: [
       { value: "78%", label: "Win Rate" },
@@ -472,7 +472,7 @@ export const featuredAthletes = [
     name: "Andy Baseline",
     category: "Tennis",
     categoryId: "cat-6",
-    image: "/placeholder-image.jpg",
+    image: "https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?w=800&q=80",
     description: "Baseline specialist with exceptional endurance and consistent groundstrokes.",
     stats: [
       { value: "82%", label: "Baseline Pts" },
@@ -491,7 +491,7 @@ export const featuredAthletes = [
     name: "Travis WOD",
     category: "CrossFit",
     categoryId: "cat-7",
-    image: "/placeholder-image.jpg",
+    image: "https://images.unsplash.com/photo-1533681904393-9ab6eee7e408?w=800&q=80",
     description: "CrossFit competitor with AI-optimized WOD programming and functional movement patterns.",
     stats: [
       { value: "325kg", label: "Total" },
@@ -510,7 +510,7 @@ export const featuredAthletes = [
     name: "Kara Box",
     category: "CrossFit",
     categoryId: "cat-7",
-    image: "/placeholder-image.jpg",
+    image: "https://images.unsplash.com/photo-1584863265045-f9d10ca7fa61?w=800&q=80",
     description: "Gymnastic-focused CrossFit specialist with bodyweight mastery and mobility excellence.",
     stats: [
       { value: "30", label: "Muscle-Ups" },
@@ -529,7 +529,7 @@ export const featuredAthletes = [
     name: "Jason Functional",
     category: "CrossFit",
     categoryId: "cat-7",
-    image: "/placeholder-image.jpg",
+    image: "https://images.unsplash.com/photo-1577221084712-45b0445d2b00?w=800&q=80",
     description: "Olympic lifting specialist within CrossFit with explosive power and technical expertise.",
     stats: [
       { value: "148kg", label: "Clean & Jerk" },
