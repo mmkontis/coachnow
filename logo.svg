@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- AI Glow Effect -->
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feFlood flood-color="#4F46E5" flood-opacity="0.5" result="glowColor"/>
+      <feComposite in="glowColor" in2="coloredBlur" operator="in" result="softGlow"/>
+      <feMerge>
+        <feMergeNode in="softGlow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="90" fill="#ffffff" filter="url(#glow)"/>
+
+  <!-- Text "CoachNow" -->
+  <text x="100" y="110" 
+        font-family="Arial, sans-serif" 
+        font-size="28" 
+        font-weight="bold" 
+        text-anchor="middle" 
+        fill="#1F2937">
+    Coach<tspan fill="#4F46E5">Now</tspan>
+  </text>
+
+  <!-- Decorative Elements -->
+  <path d="M70 75 Q100 45 130 75" 
+        stroke="#4F46E5" 
+        stroke-width="3" 
+        fill="none" 
+        filter="url(#glow)"/>
+  
+  <path d="M70 125 Q100 155 130 125" 
+        stroke="#4F46E5" 
+        stroke-width="3" 
+        fill="none" 
+        filter="url(#glow)"/>
+</svg> 
